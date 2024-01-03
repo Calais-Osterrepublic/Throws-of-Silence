@@ -18,8 +18,8 @@
 		
 		"tradeRequest": "Will this be to your liking?",
 
-		"outerColor": [190,190,190],
-		"innerColor": [0,0,0],
+		"outerColor": [200,200,200],
+		"innerColor": [255,0,0],
 		"uniqueName": "Fantastic Units",
 		"uniques": [
 			"Cannot build [Gunpowder] units",
@@ -48,27 +48,56 @@
 		]
 	},
 	{
-		"name": "",
-		"leaderName": "",
-		"adjective": [""],
-		"preferredVictoryType": ""
+		"name": "The Lithuanina State",
+		"leaderName": "Vytautus Didysis",
+		"adjective": ["Lithuanian"],
+		"preferredVictoryType": "Scientific"
 		
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Greetings, Lithuanian Simulant. Your goal is to simulate how the real Lithuanian Slavic Republic will act. Due to the nature of the sim, we cannot guarantee that you'll be facing your intended opponents. That is fine, perhaps you can show for yourself how effective your nation can be in the international scene.",
+		"startIntroPart2": "Your objective: Dictate the known world's progress. Achieve a significant home state and protect it from foreign forces. What must be known is the how? Will you show this world that your dominion is not yet forgotten? Can your strategy and study leave a legacy that will stand the test of time?",
 		
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
+		"declaringWar": "No response needed. Prepare for war.",
+		"attacked": "You're eager to place your finest into the soil.",
+		"defeated": "Perhaps you'll be of greater use.",
+		"introduction": "Greetings. Welcome to mighty Vilnius, home of the Lithuanian people.",
 		
-		"neutralHello": "",
-		"hateHello": "",
+		"neutralHello": "Yes?",
+		"hateHello": "Go on?",
 		
-		"tradeRequest": "",
+		"tradeRequest": "Will this work with you?",
 
-		"outerColor": [190,190,190],
-		"innerColor": [0,0,0],
-		"uniqueName": "",
+		"outerColor": [50,200,50],
+		"innerColor": [200,200,10],
+		"uniqueName": "The Baltic Tiger",
+		"uniques": [
+			"[+1 Gold, +2 Production, +1 Happiness] per [2] population [in all cities] <in cities with a [Castle]>",
+			"Provides a [Castle] in your first [4] cities for free <upon discovering [Chivalry]>",
+		],
+		"cities": ["Vilnius", "Kaunas", "Klaipeda", "Siauliai", "Panevezys", "Alytus", "Utena", "Telsiai",
+			"Taurage", "Marijampole", "Garliava", "Vilnia", "Kelme", "Naujoji"]
+	},
+	{
+		"name": "The Army of Lodz",
+		"leaderName": "Jozef Pilsudski",
+		"adjective": ["Southern Polish"],
+		"preferredVictoryType": "Diplomacy"
+		
+		"startIntroPart1": "Greetings, Simulant. Your task is to help simulate the behavior of the Christian Coalition Party and its militia wing, 'Christ's Legion'. Your party has suffered from several fits of political paralysis with the further study of the Republic and its exposure to the outside world. Yet despite this, your people have saved the people of the South and have rescued the lives of thousands of Zeldir(fans of the Franchise) from the First and Second Purges. Know that your inspiration lies in the power of your people to defy impossible odds from relentless enemies, yet serve God and the community through acts of selfless aid and sacrifice, from the saving of Canadian journalists during the Dark Mirror Purge to the rescuing of the refugees of Gdansk during the First Purge.",
+		"startIntroPart2": "Anarchy has shown that you're the leader of the most competent and perseverant servants of Christ, and among the most sane of the factions of the Slavic Civil War. Can you show that ability to this land as well? Will you forge a beacon of hope that will stand the test of time?",
+		
+		"declaringWar": "Find the heart to forgive me in our future. Prepare for war",
+		"attacked": "Very well. Prepare for a war.",
+		"defeated": "If I may ask, treat my people well. They haven't failed yet, even though I have.",
+		"introduction": "Greetings. In a warzone of anarchy, I do hope I can arrange some time for peace.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What brings you here?",
+		
+		"tradeRequest": "I offer this, for your consideration.",
+
+		"outerColor": [190,190,0],
+		"innerColor": [250,250,250],
+		"uniqueName": "Always Prepared",
 		"uniques": [],
 		"cities": ["", "", "", "", "", "", "", "",
 			"", "", "", "", "", ""]
