@@ -98,6 +98,65 @@
 		"outerColor": [190,190,0],
 		"innerColor": [250,250,250],
 		"uniqueName": "Always Prepared",
+		"uniques": [
+			"Enemy [Melee] units must spend [1] extra movement points when inside your territory",
+			"[-1] Unit Supply per city <when not at war>",
+			"Gain a free [Wartime Storm Initative] [in all cities] <upon declaring war with a major Civilization>",
+			"[+1 Food, +1 Faith] from all [Faith] buildings"
+		],
+		"cities": ["Lodz", "Pabianice", "Kutno", "Sieradz", "Radomsko", "Opole", "Katowice", "Krakow",
+			"Wroclaw", "Chrzanow", "Kalisz", "Bielawa", "Konin", "Leszno"]
+	},
+	{
+		"name": "The Slavic Republic",
+		"leaderName": "Mieszko",
+		"adjective": ["Slavic"],
+		"preferredVictoryType": "Domination"
+
+		"startIntroPart1": "My condolences, Simulant. Your objective is to simulate the behavior of the real Royalist faction of the Slavic Republic. May providence have mercy on your poor soul. You rule the more central and southeast portions of Poland, due to loss after loss against the Nationalists and the Christian Coalition. Civil war has brought your faction, the Royalist 'bootlickers' to its knees, but it has not led to your defeat or the cooling of your radical behavior. You've led the execution of thousands during your Reign of Terror and the Royalist Domination. From the execution of the Slavic way of life in Poland to your reuse of the infamous Birkenau camp, maybe your party deserves to be put into the ground. Your party, your ancestors, don't deserve to be led by someone named after the first Christian Polish Monarch.",
+		"startIntroPart2": "Perhaps, though, you can discover redemption in the ashes. You may not encounter those deserving of your party's penance, but perhaps they can find peace among the locals? Will you defy your monsterous past and forge a path of peace? Maybe an age of glory with everyone under your wing? How about, instead, you raze the nations of this world to the ground? Will you forge a legacy in the name of the Crown? Will it outlast the throws of time?",
+		
+		"declaringWar": "How sad. I wanted to resort to LESS bloody measures!",
+		"attacked": "Ha ha! You gamble your people's lives? Come, come! The furnaces miss having bodies!",
+		"defeated": "I have slandered the name of Mieszko. Perhaps those Slavs deserve it!",
+		"introduction": "Greetings. Don't mind the smell of burning meat.",
+
+		"neutralHello": "Yes?",
+		"hateHello": "Come again? I can't hear you over the screams.",
+
+		"tradeRequest": "Oh? Don't worry, that's paint, not blood. Take a look!",
+
+		"outerColor": [0,50,100],
+		"innerColor": [0,0,100],
+		"uniqueName": "Embodiment of Wrath",
+		"uniques": [
+			"[-1] Unit Supply per [2] population [cityFilter]"
+		],
+		"cities": ["", "", "", "", "", "", "", "",
+			"", "", "", "", "", ""]
+	},
+	{
+		"name": "The Polish Free Army",
+		"leaderName": "",
+		"adjective": [""],
+		"preferredVictoryType": ""
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+
+		"neutralHello": "",
+		"hateHello": "",
+
+		"tradeRequest": "",
+
+		"outerColor": [190,190,190],
+		"innerColor": [0,0,0],
+		"uniqueName": "",
 		"uniques": [],
 		"cities": ["", "", "", "", "", "", "", "",
 			"", "", "", "", "", ""]
