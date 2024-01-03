@@ -1,10 +1,57 @@
 [
 	{
+		"name": "Canada",
+		"leaderName": "Stephen Harper",
+		"adjective": ["Canadian"],
+		"preferredVictoryType": "Diplomatic"
+		
+		"startIntroPart1": "Good day, Simulant. Your name, Stephen Harper, is but an illusion. You are a mimic meant to serve our greater objective - the pacification of this world. You bring strength to our empire be conquering realms in the name of the Commonwealth. We cannot guarantee your safety in times of war, so do play nice.",
+		"startIntroPart2": "We cannot confirm that our target is here, but our goal remains. Harvest the land, dominate the locals. Make peace with their leaders, and bring us tales to fund the war effort. Will you serve us well in these times of conflict?",
+		
+		"declaringWar": "We're sorry, but you're in our way.",
+		"attacked": "Reconsider your mistake when you can. You don't have long.",
+		"defeated": "When you come to the Hall of Kings, you will find that the last one died at your hands.",
+		"introduction": "Hello, and welcome to Canada!",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "What do you want?",
+		
+		"tradeRequest": "Will this be to your liking?",
+
+		"outerColor": [190,190,190],
+		"innerColor": [0,0,0],
+		"uniqueName": "Fantastic Units",
+		"uniques": [
+			"Cannot build [Gunpowder] units",
+			"Cannot build [Ranged Gunpowder] units",
+			"[+200]% [Culture] from City-States",
+			"Gain [10]-[200] [Culture] <upon defeating a [Military] unit>",
+			"May buy [Military] units for [300] [Culture] [in all non-occupied cities]",
+			"[-1] Unit Supply per [1] population [in all cities]"
+			
+		],
+		"cities": [
+			"Ottowa", 
+			"Toronto", 
+			"Thunder Bay", 
+			"Sandy Lake", 
+			"Winnipeg", 
+			"Regina", 
+			"Edmonton", 
+			"Victoria",
+			"Vancouver", 
+			"Galgary", 
+			"Saskatoon", 
+			"Whitehorse", 
+			"Iqaluit", 
+			"Yellowknife"
+		]
+	},
+	{
 		"name": "",
 		"leaderName": "",
 		"adjective": [""],
-		"preferredVictoryType": "",
-		"style": "",
+		"preferredVictoryType": ""
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -15,16 +62,8 @@
 		"introduction": "",
 		
 		"neutralHello": "",
-		"neutralLetsHearIt": "",
-		"neutralNo": "",
-		"neutralYes": "",
-
 		"hateHello": "",
-		"hateLetsHearIt": "",
-		"hateNo": "",
-		"hateYes": "",
 		
-		"afterPeace": "",
 		"tradeRequest": "",
 
 		"outerColor": [190,190,190],
@@ -33,5 +72,5 @@
 		"uniques": [],
 		"cities": ["", "", "", "", "", "", "", "",
 			"", "", "", "", "", ""]
-	}
+	},
 ]
