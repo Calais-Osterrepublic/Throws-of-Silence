@@ -127,7 +127,11 @@
 		"innerColor": [0,0,100],
 		"uniqueName": "Embodiment of Wrath",
 		"uniques": [
-			"[-66]% Production when constructing [Military] units [in all cities]"
+			"[+20]% maintenance costs",
+			"Rebel units may spawn  <upon turn end>",
+			"Starts with [Tradition] adopted",
+			"[Gold] cost of purchasing [Military] units [-66]%"
+			
 		],
 		"cities": ["", "", "", "", "", "", "", "",
 			"", "", "", "", "", ""]
