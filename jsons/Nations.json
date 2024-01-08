@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Canada",
+		"name": "The Canadian Federation",
 		"leaderName": "Stephen Harper",
 		"adjective": ["Canadian"],
 		"preferredVictoryType": "Diplomatic"
@@ -22,13 +22,9 @@
 		"innerColor": [255,0,0],
 		"uniqueName": "Fantastic Units",
 		"uniques": [
-			"Cannot build [Gunpowder] units",
-			"Cannot build [Ranged Gunpowder] units",
-			"[+200]% [Culture] from City-States",
-			"Gain [10]-[200] [Culture] <upon defeating a [Military] unit>",
-			"May buy [Military] units for [300] [Culture] [in all non-occupied cities]",
-			"[-1] Unit Supply per [1] population [in all cities]"
-			
+			"[-2] Unit Supply per city",
+			"[+100]% Gold from Great Merchant trade missions",
+			"Gifts of Gold to City-States generate [+33]% more Influence"
 		],
 		"cities": [
 			"Ottowa", 
@@ -48,7 +44,7 @@
 		]
 	},
 	{
-		"name": "The Lithuanina State",
+		"name": "The Lithuanian State",
 		"leaderName": "Vytautus Didysis",
 		"adjective": ["Lithuanian"],
 		"preferredVictoryType": "Scientific"
@@ -70,7 +66,8 @@
 		"innerColor": [200,200,10],
 		"uniqueName": "The Baltic Tiger",
 		"uniques": [
-			"[+1 Gold, +2 Production, +1 Happiness] per [2] population [in all cities] <in cities with a [Castle]>",
+			"[+1 Gold, +1 Happiness] from every [Castle]",
+			"[-2 Gold, -2 Happiness] from every [Courthouse]",
 			"Provides a [Castle] in your first [4] cities for free <upon discovering [Chivalry]>",
 		],
 		"cities": ["Vilnius", "Kaunas", "Klaipeda", "Siauliai", "Panevezys", "Alytus", "Utena", "Telsiai",
@@ -87,8 +84,8 @@
 		
 		"declaringWar": "Find the heart to forgive me in our future. Prepare for war",
 		"attacked": "Very well. Prepare for a war.",
-		"defeated": "If I may ask, treat my people well. They haven't failed yet, even though I have.",
-		"introduction": "Greetings. In a warzone of anarchy, I do hope I can arrange some time for peace.",
+		"defeated": "Please, treat my people well. They haven't failed yet, even though I have.",
+		"introduction": "Greetings. In a warzone of anarchy, our time is sadly short.",
 		
 		"neutralHello": "Greetings.",
 		"hateHello": "What brings you here?",
@@ -100,8 +97,8 @@
 		"uniqueName": "Always Prepared",
 		"uniques": [
 			"Enemy [Melee] units must spend [1] extra movement points when inside your territory",
-			"[-1] Unit Supply per city <when not at war>",
-			"Gain a free [Wartime Storm Initative] [in all cities] <upon declaring war with a major Civilization>",
+			"[-2] Unit Supply per city <when not at war>",
+			"Gain a free [Wartime Storm Initative] [in all cities]",
 			"[+1 Food, +1 Faith] from all [Faith] buildings"
 		],
 		"cities": ["Lodz", "Pabianice", "Kutno", "Sieradz", "Radomsko", "Opole", "Katowice", "Krakow",
@@ -117,12 +114,12 @@
 		"startIntroPart2": "Perhaps, though, you can discover redemption in the ashes. You may not encounter those deserving of your party's penance, but perhaps they can find peace among the locals? Will you defy your monsterous past and forge a path of peace? Maybe an age of glory with everyone under your wing? How about, instead, you raze the nations of this world to the ground? Will you forge a legacy in the name of the Crown? Will it outlast the throws of time?",
 		
 		"declaringWar": "How sad. I wanted to resort to LESS bloody measures!",
-		"attacked": "Ha ha! You gamble your people's lives? Come, come! The furnaces miss having bodies!",
-		"defeated": "I have slandered the name of Mieszko. Perhaps those Slavs deserve it!",
-		"introduction": "Greetings. Don't mind the smell of burning meat.",
+		"attacked": "Ha ha! You gamble your people's lives? Come, prove yourself!",
+		"defeated": "I have slandered the name of Mieszko. Farewell, my dear empire",
+		"introduction": "Greetings. Welcome to the Republic.",
 
 		"neutralHello": "Yes?",
-		"hateHello": "Come again? I can't hear you over the screams.",
+		"hateHello": "WHAT do YOU WANT?",
 
 		"tradeRequest": "Oh? Don't worry, that's paint, not blood. Take a look!",
 
@@ -130,7 +127,7 @@
 		"innerColor": [0,0,100],
 		"uniqueName": "Embodiment of Wrath",
 		"uniques": [
-			"[-1] Unit Supply per [2] population [cityFilter]"
+			"[-66]% Production when constructing [Military] units [in all cities]"
 		],
 		"cities": ["", "", "", "", "", "", "", "",
 			"", "", "", "", "", ""]
