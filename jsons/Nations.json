@@ -24,7 +24,8 @@
 		"uniques": [
 			"[-2] Unit Supply per city",
 			"[+100]% Gold from Great Merchant trade missions",
-			"Gifts of Gold to City-States generate [+33]% more Influence"
+			"Gifts of Gold to City-States generate [+33]% more Influence",
+			"May not annex cities"
 		],
 		"cities": [
 			"Ottowa", 
@@ -128,38 +129,38 @@
 		"uniqueName": "Embodiment of Wrath",
 		"uniques": [
 			"[+20]% maintenance costs",
-			"Rebel units may spawn  <upon turn end>",
+			"Rebel units may spawn  <upon conquering a city>",
 			"Starts with [Tradition] adopted",
 			"[Gold] cost of purchasing [Military] units [-66]%"
 			
 		],
-		"cities": ["", "", "", "", "", "", "", "",
-			"", "", "", "", "", ""]
+		"cities": ["Warsawa", "Otwock", "Legionowo", "Bialystok", "Lomza", "Olszlyn", "Suwalki", "Kutno",
+			"Plock", "Zyrardeow", "Chelm", "Zamosc", "Kielce", "Putawy"]
 	},
 	{
-		"name": "The Polish Free Army",
-		"leaderName": "",
-		"adjective": [""],
-		"preferredVictoryType": ""
+		"name": "The Polish Liberation Army",
+		"leaderName": "The Rebel Sejm",
+		"adjective": ["West Polish"],
+		"preferredVictoryType": "Domination"
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Welcome to the Republic, in its truest form. In the past, our nation was the forefront of cultural development and influence. We created freely and openly. Our ability to exert power over our designated work was only matched by our boundless imagination. Those days are over. We, the Nationalists, have come together to end the tyrannical Royalists and bring a restoration of the Republic's ancient values, traditions, and abilities. Our beloved Nation of Poland has been ravaged, but it shall be this way no more once we come to power!",
+		"startIntroPart2": "My beloved Sejm, come forth! Come forth and destroy the experiments of the enemy! Will we triumph over them as a liberator should? Will WE create a valient work of art to stand the test of time?",
 		
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
+		"declaringWar": "Your cities have been strangled no longer. En garde!",
+		"attacked": "Farewell. I'll meet you in your capital soon.",
+		"defeated": "Dear dictator, rule the Polish well, lest we come to bring you to an end!",
+		"introduction": "Greetings. Welcome to Poland.",
 
-		"neutralHello": "",
-		"hateHello": "",
+		"neutralHello": "Greetings",
+		"hateHello": "Don't hit yourself on the way out.",
 
-		"tradeRequest": "",
+		"tradeRequest": "This is ours now. Will you accept this as compensation?",
 
-		"outerColor": [190,190,190],
-		"innerColor": [0,0,0],
-		"uniqueName": "",
+		"outerColor": [90,0,0],
+		"innerColor": [10,10,10],
+		"uniqueName": "Under the Floorboards",
 		"uniques": [],
-		"cities": ["", "", "", "", "", "", "", "",
-			"", "", "", "", "", ""]
+		"cities": ["Poznan", "Szczecin", "Bydgoszcz", "Legnica", "Leszno", "Konin", "Chojnice", "Koszalin",
+			"Stargard", "Pila", "Gorzow", "Lebork", "Konin", "Gniezno"]
 	},
 ]
